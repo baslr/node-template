@@ -1,0 +1,17 @@
+# everything that should not transferred to the docker build process
+/benchmarks
+/coverage
+/docs
+/examples
+/node_modules
+/scripts
+/src
+
+/*.
+!/.npmrc
+
+/CHANGELOG.md
+/jest.config.js
+/README.md
+/tsconfig.json
+/webpack.config.js
